@@ -1,0 +1,38 @@
+<!--logs.wxml-->
+<view class="sethead1">
+  <view class="subSethead1">神民配置</view>
+</view>
+
+<view>
+    <block wx:for="{{arrayShen}}">
+      <text class="log-item">{{"  "+arrayShen[index]+"  "}}          </text>
+    </block>
+</view>
+
+
+<view class="setheadSpace">
+  
+</view>
+
+<view class="sethead1">
+  <view class="subSethead1">狼人配置</view>
+</view>
+
+<view>
+    <block wx:for="{{arrayWolf}}">
+      <text class="subSethead1">{{"  "+arrayWolf[index]+"  "}}          </text>
+    </block>
+    <view class="setheadSpace">
+    </view>
+</view>
+
+<view class="sethead1">
+  <view class="subSethead1">狼人配置</view>
+</view>
+
+<view>
+    <block wx:for="{{arrayThird}}">
+      <text class="subSethead1">{{"  "+arrayThird[index]+"  "}}          </text>
+    </block>
+</view>
+

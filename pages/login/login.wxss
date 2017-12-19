@@ -1,0 +1,69 @@
+/**index.wxss**/
+.userinfo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.input_num1 {
+  background-color: cornsilk;
+  margin-top: 64rpx;
+  width: 428rpx;
+  height: 128rpx;
+  border-color: cornsilk;
+  font-family:'Trebuchet MS';
+  font-size: 80rpx;
+}
+
+.submit_bt {
+  background-color: cornsilk;
+  margin-top: 94rpx;
+  width: 228rpx;
+  height: 98rpx;
+}
+.input_num2 {
+  background-color: green;
+  margin-left: -82rpx;
+  margin-top: -64rpx;
+  width: 68rpx;
+  height: 68rpx;
+  border-color: red;
+  border-width: 10rpx;
+  border-bottom-width: 20rpx;
+  
+}
+.input_num3 {
+  background-color: yellow;
+  margin-left: 90rpx;
+  margin-top: -64rpx;
+  width: 68rpx;
+  height: 68rpx;
+  border-color: red;
+  border-width: 10rpx;
+  border-bottom-width: 20rpx;
+  
+}
+.input_num4 {
+  background-color: brown;
+  margin-left: 200rpx;
+  margin-top: -64rpx;
+  width: 68rpx;
+  height: 68rpx;
+  border-color: red;
+  border-width: 10rpx;
+  border-bottom-width: 20rpx;
+  
+}
+.textArea {
+  background-color: red;
+  margin-left: 200rpx;
+  margin-top: -64rpx;
+  width: screen_width 368rpx;
+  height: 68rpx;
+
+  
+}
+
+
+
+

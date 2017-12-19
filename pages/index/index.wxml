@@ -1,0 +1,22 @@
+<!--index.wxml-->
+<view class="container">
+  <view class="userinfo">
+
+    <image class="app_icon" style="width: 120px; height: 120px; background-color: #ffffff;" mode="{{item.mode}}" src="../../asset/timg.jpeg"></image>
+
+    <text class="userinfo-nickname">嘴炮逻辑，健康游戏</text>
+
+        <button bindtap="bindGoIntoGame">进入游戏</button>
+        <button bindtap="bindCreateGame">创建游戏</button> 
+
+        <image class="userinfo-avatar" src="{{userInfo.avatarUrl}}" background-size="cover"></image>
+
+
+    <!-- <button wx:if="{{!hasUserInfo && canIUse}}" open-type="getUserInfo" bindgetuserinfo="getUserInfo"> 获取头像昵称 </button>
+    <block wx:else>
+      <image bindtap="bindViewTap" class="userinfo-avatar" src="{{userInfo.avatarUrl}}" background-size="cover"></image> -->
+<!--       
+    </block> -->
+
+  </view>
+</view>

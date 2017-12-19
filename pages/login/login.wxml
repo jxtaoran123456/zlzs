@@ -1,0 +1,28 @@
+<!--index.wxml-->
+<view class="container">
+  <view class="userinfo">
+    <text class="userinfo-nickname">请输入房间号码</text>
+    <view class="flex-wrp" style="flex-direction:row;">
+
+
+      <!-- <view class="section">
+        <textarea bindblur="bindTextAreaBlur" backgroundcolor="green" placeholder="自动变高">
+          <view class="flex-wrp" style="flex-direction:row;">
+          <view class="flex-item bc_green">1</view>
+          <view class="flex-item bc_red">2</view>
+          <view class="flex-item bc_blue">3</view>
+        </view>
+        </textarea>
+      </view> -->
+
+      <view class="section">
+        <form bindsubmit="bindFormSubmit">
+          <textarea class="input_num1" placeholder="房间号码" name="textarea" maxlength="4"/>
+          <button class="submit_bt" form-type="submit"> 提交 </button>
+        </form>
+      </view>
+
+
+    </view>
+  </view>
+</view>
